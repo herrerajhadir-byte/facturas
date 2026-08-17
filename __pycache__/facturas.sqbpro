@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/flore/OneDrive/Desktop/facturas/facturas.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="0"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1240"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="factura" custom_title="0" dock_id="4" table="4,7:mainfactura"/><dock_state state="000000ff00000000fd0000000100000002000004f40000021efc0100000004fb000000160064006f0063006b00420072006f00770073006500310100000000000004f40000000000000000fb000000160064006f0063006b00420072006f00770073006500320100000000000004f40000000000000000fb000000160064006f0063006b00420072006f00770073006500330100000000000004f40000000000000000fb000000160064006f0063006b00420072006f00770073006500340100000000ffffffff0000011800ffffff000002580000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1*">INSERT INTO facturas (numero_factura, fecha, cliente, total) VALUES
+(1001, '2026-08-01', 'Empresa A SpA', 150000),
+(1002, '2026-08-02', 'Comercial B Ltda', 240000),
+(1003, '2026-08-03', 'Juan Pérez', 45000),
+(1004, '2026-08-04', 'María Gómez', 89000),
+(1005, '2026-08-05', 'Tecnología S.A.', 1200000),
+(1006, '2026-08-06', 'Servicios Integrales', 320000),
+(1007, '2026-08-07', 'Carlos Soto', 67000),
+(1008, '2026-08-08', 'Distribuidora Sur', 540000),
+(1009, '2026-08-09', 'Ana Torres', 125000),
+(1010, '2026-08-10', 'Inversiones Norte', 980000),
+(1011, '2026-08-11', 'Pedro Navaja', 31000),
+(1012, '2026-08-12', 'Consultora X', 450000),
+(1013, '2026-08-13', 'Transportes R', 780000),
+(1014, '2026-08-14', 'Ferretería Central', 230000),
+(1015, '2026-08-15', 'Supermercado Local', 95000);</sql><current_tab id="0"/></tab_sql></sqlb_project>
