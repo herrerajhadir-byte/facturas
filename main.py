@@ -5,8 +5,12 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-DB_NAME = "facturas.db"
+origins = [
+    "http://127.0.0.1:8000",
+    "http://127.0.0.1:8000/docs",
+]
 
+DB_NAME = "facturas.db"
 
 
 class FacturaCreate(BaseModel):
